@@ -25,6 +25,7 @@ class Config(object):
     EVENT_LOGS = -1001598625668  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     LOG_GROUP_ID = -1001598625668
     ARQ_API_KEY = "AEWDWZ-AUZSMK-DWRYWB-VUBMGC-ARQ"
+    MONGO_DB_URI = "mongodb+srv://dbmab:eUtbAuei6mpLoinz@cluster0.r2c3m.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     
     #RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'postgres://mazxusdg:qON-42EN_Nnv-PQm5uqzt27ExGKPbCX0@john.db.elephantsql.com/mazxusdg'  # needed for any database modules
