@@ -23,7 +23,8 @@ class Config(object):
     SUPPORT_CHAT = 'Ta'  #Your own group for support, do not add the @
     JOIN_LOGGER = -1001598625668  #Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = -1001598625668  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-
+    LOG_GROUP_ID = -1001598625668
+    
     #RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'postgres://mazxusdg:qON-42EN_Nnv-PQm5uqzt27ExGKPbCX0@john.db.elephantsql.com/mazxusdg'  # needed for any database modules
     LOAD = []
